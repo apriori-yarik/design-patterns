@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple
 {
-    internal class ProductService
+    public class ProductService
     {
+        // ProductService does not depend on the actual implementation of storage.Add() method
+        public void AddProduct(IStorage storage, Product product)
+        {
+            storage.Add(product);
+        }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregationPrinciple
 {
-    internal interface IScanner
+    public interface IScanner
     {
+        void Scan(Document d);
     }
 }

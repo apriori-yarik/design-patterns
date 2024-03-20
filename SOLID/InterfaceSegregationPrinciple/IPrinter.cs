@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregationPrinciple
 {
-    internal interface IPrinter
+    public interface IPrinter
     {
+        void Print(Document d);
     }
 }

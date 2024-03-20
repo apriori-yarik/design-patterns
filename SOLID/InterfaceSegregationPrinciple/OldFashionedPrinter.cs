@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregationPrinciple
 {
-    internal class OldFashionedPrinter
+    public class OldFashionedPrinter : IPrinter
     {
+        public void Print(Document d)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

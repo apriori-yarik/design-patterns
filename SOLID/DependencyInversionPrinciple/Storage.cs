@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple
 {
-    internal class Storage
+    public class Storage : IStorage
     {
+        private List<Product> products = new List<Product>();
+
+        public void Add(Product product)
+        {
+            products.Add(product);
+        }
     }
 }

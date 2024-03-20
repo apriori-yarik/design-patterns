@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregationPrinciple
 {
-    internal class Document
+    public class Document
     {
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple
 {
-    internal class Product
+    public class Product
     {
+        public string Name;
     }
 }

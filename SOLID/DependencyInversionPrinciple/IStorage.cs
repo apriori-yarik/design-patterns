@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple
 {
-    internal interface IStorage
+    public interface IStorage
     {
+        void Add(Product product);
     }
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceSegregationPrinciple
+namespace BuilderDemo
 {
-    public interface IMultiFunctionDevice : IPrinter, IScanner
+    public class Manual
     {
+        public string Text { get; set; }
     }
 }
