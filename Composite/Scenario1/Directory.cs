@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Composite
+namespace Composite.Scenario1
 {
     public class Directory : FileSystemItem
     {
