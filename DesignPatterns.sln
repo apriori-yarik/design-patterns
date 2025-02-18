@@ -5,9 +5,11 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{90DC38AA-FB0C-4DEE-BC36-7C413DAA4BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{A503E71D-048B-4253-9954-2F781EA1EEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{A503E71D-048B-4253-9954-2F781EA1EEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{791FE79E-7265-4F0C-B229-7F97A0829119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{791FE79E-7265-4F0C-B229-7F97A0829119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{205CBCE7-5038-42E5-883D-536F6DFA461C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{791FE79E-7265-4F0C-B229-7F97A0829119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{791FE79E-7265-4F0C-B229-7F97A0829119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{791FE79E-7265-4F0C-B229-7F97A0829119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205CBCE7-5038-42E5-883D-536F6DFA461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205CBCE7-5038-42E5-883D-536F6DFA461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205CBCE7-5038-42E5-883D-536F6DFA461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205CBCE7-5038-42E5-883D-536F6DFA461C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
